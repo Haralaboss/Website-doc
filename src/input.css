@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@theme {
+    --color-offblack: #191919;
+    --color-offblack-soft: #313131;
+    --color-offblack-softer: #686868;
+    --color-offblack-softest: #e8e8e8;
+}
+
+@layer base {
+    button {
+      @apply cursor-pointer;
+    }
+  }

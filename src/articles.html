@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ιατρείο</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="../js/buttonListeners.js"></script>
+</head>
+<body class="bg-gray-100 text-offblack">
+    <!-- Header -->
+    <header class="bg-offblack text-white py-4">
+        <div class="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-16">
+            <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                <img src="/images/logo4.png" alt="Λογότυπο" class="h-16 md:h-20"> <!-- Logo -->
+            </div>
+            
+            <div class="flex flex-col items-center md:flex-row md:place-content-center gap-2">
+                <div class="flex space-x-2 mb-2 md:mb-0">
+                    <a href="https://www.facebook.com/share/1YpMM78E6W/" target="_blank"> <img src="/images/facebook icon.png" class="h-10 cursor-pointer"></a>
+                    <a href="https://www.instagram.com/karavasgc?igsh=MWxyOXAxMHpldmV4bQ==" target="_blank"> <img src="/images/instagram icon.png" class="h-10 cursor-pointer"></a>
+                </div>
+                <div class="text-sm text-center md:text-left">
+                    <p>Τηλ: 2310243303, 2351031408</p>
+                    <p>Κιν: 6947721299</p>
+                    <p>Email: info@gckaravas.com</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav class="bg-offblack-soft text-white py-3 shadow-md sticky top-0 z-50">
+        <div class="container flex items-center px-4 md:px-16 gap-4">
+            <button id="menu-toggle" class="block md:hidden text-white focus:outline-none">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
+                <a href="index.html" class="hover:text-gray-400">Αρχική</a>
+                <a href="biography.html" class="hover:text-gray-400">Βιογραφικό</a>
+                <a href="index.html#services" class="hover:text-gray-400">Υπηρεσίες</a>
+                <a href="articles.html" class="hover:text-gray-400">Αρθρογραφία</a>
+                <a href="contact.html" class="hover:text-gray-400">Επικοινωνία</a>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <!-- Footer -->
+    <footer class="bg-offblack text-white text-center py-4 mt-12">
+        <p>&copy; 2025 Γεώργιος Χ. Καραβάς . Όλα τα δικαιώματα διατηρούνται.</p>
+    </footer>
+</body>
+
+</html>

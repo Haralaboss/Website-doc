@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ιατρείο</title>
+    <link href="./output.css" rel="stylesheet">
+    <script src="../js/buttonListeners.js"></script>
+</head>
+<body class="bg-gray-100 text-offblack">
+    <!-- Header -->
+    <header class="bg-offblack text-white py-4">
+        <div class="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-16">
+            <div class="flex items-center space-x-4 mb-4 md:mb-0">
+                <img src="/images/logo4.png" alt="Λογότυπο" class="h-16 md:h-20"> <!-- Logo -->
+            </div>
+            
+            <div class="flex flex-col items-center md:flex-row md:place-content-center gap-2">
+                <div class="flex space-x-2 mb-2 md:mb-0">
+                    <a href="https://www.facebook.com/share/1YpMM78E6W/" target="_blank"> <img src="/images/facebook icon.png" class="h-10 cursor-pointer"></a>
+                    <a href="https://www.instagram.com/karavasgc?igsh=MWxyOXAxMHpldmV4bQ==" target="_blank"> <img src="/images/instagram icon.png" class="h-10 cursor-pointer"></a>
+                </div>
+                <div class="text-sm text-center md:text-left">
+                    <p>Τηλ: 2310243303, 2351031408</p>
+                    <p>Κιν: 6947721299</p>
+                    <p>Email: info@gckaravas.com</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Navigation -->
+    <nav class="bg-offblack-soft text-white py-3 shadow-md sticky top-0 z-50">
+        <div class="container flex items-center px-4 md:px-16 gap-4">
+            <button id="menu-toggle" class="block md:hidden text-white focus:outline-none">
+                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
+                <a href="index.html" class="hover:text-gray-400">Αρχική</a>
+                <a href="biography.html" class="hover:text-gray-400">Βιογραφικό</a>
+                <a href="#services" class="hover:text-gray-400">Υπηρεσίες</a>
+                <a href="articles.html" class="hover:text-gray-400">Αρθρογραφία</a>
+                <a href="contact.html" class="hover:text-gray-400">Επικοινωνία</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <!-- Hero Section -->
+    <section class="relative bg-offblack-softer text-white flex flex-col md:flex-row items-center ">
+        <img src="/images/fullslide56.png" alt="Φωτογραφία Ιατρείου" class="w-full md:w-1/2 h-auto mb-4 md:mb-0">
+        <div class="md:w-1/2 text-center md:text-left">
+            <h2 class="text-3xl font-bold px-4">Καλώς ήρθατε στην ιστοσελίδα του ιατρείου μας!</h2>
+            <p class="px-4 pt-4">
+                Η τεχνολογία προσφέρει μοναδικές δυνατότητες για άμεση επικοινωνία και ενημέρωση. Στην ιστοσελίδα μας, 
+                μπορείτε να βρείτε χρήσιμες πληροφορίες και υλικό σχετικά με τη Μαιευτική και τη Γυναικολογία,
+                προσαρμοσμένο τόσο στις ανάγκες της μελλοντικής μητέρας όσο και της κάθε σύγχρονης γυναίκας.
+            </p>
+            <p class="px-4 pt-4">
+                Επίσης μπορείτε να βρείτε πληροφορίες για τις ώρες και μέρες λειτουργίας των ιατρείων, τα στοιχεία επικοινωνίας και οδηγίες για την εύκολη πρόσβαση σε αυτό.
+            </p>
+            <p class="px-4 pt-4">
+                Σας ευχαριστούμε για την επίσκεψή σας και ελπίζουμε ότι η περιήγησή σας θα είναι χρήσιμη και αποδοτική, εκπληρώνοντας τον στόχο μας να σας παρέχουμε την καλύτερη δυνατή ενημέρωση.
+            </p>
+        </div>
+    </section>
+    
+    <!-- Home Content -->
+    <section class="grid mx-auto py-12 px-6 content-center justify-center pointer-events-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 content-center justify-center pointer-events-auto">
+            <button onclick="window.location.href='thess-office.html'" class="bg-[url(/images/fullslide67.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-64 md:w-[33rem] h-64 md:h-[21rem] 2xl:w-[44rem] 2xl:h-[28rem]
+                hover:opacity-100 bg-center hover:text-white hover:scale-110 hover:transition-all cursor-pointer [text-shadow:_0px_0px_8px_rgb(255_255_255_/_90%)] hover:[text-shadow:_0px_0px_5px_rgb(0_0_0_/_80%)]">Ιατρείο Θεσσαλονίκης
+            </button>
+            <button onclick="window.location.href='katerini-office.html'" class="bg-[url(/images/Image00006.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-full w-64 md:w-[33rem] h-64 md:h-[21rem] 2xl:w-[44rem] 2xl:h-[28rem]
+                hover:opacity-100 bg-center hover:text-white hover:scale-110 hover:transition-all cursor-pointer [text-shadow:_0px_0px_8px_rgb(255_255_255_/_90%)] hover:[text-shadow:_0px_0px_5px_rgb(0_0_0_/_80%)]">Ιατρείο Κατερίνης
+            </button>
+        </div>
+    </section>
+        
+    </section>
+    <section id="services" class="bg-offblack text-white text-center py-4 mt-12 grid place-content-center content-center divide-y">
+        <p class="text-4xl font-bold pb-4">ΥΠΗΡΕΣΙΕΣ</p>
+        <div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-12 items-center">
+            <div class="grid w-full md: max-w-64">
+                <button id="ser1" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser1")'> Προληπτικός Γυναικολογικός Έλεγχος </button>
+                <button id="ser2" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser2")'> Κολποσκόπηση – Βιοψία τραχήλου </button>
+                <button id="ser3" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser3")'> Διερεύνηση Υπογονιμότητας </button>
+                <button id="ser4" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser4")'> Υστεροσκόπηση </button>
+                <button id="ser5" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser5")'> Λαπαροσκόπηση </button>
+                <button id="ser6" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser6")'> Σπερματέγχυση </button>
+                <button id="ser7" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser7")'> Παρακολούθηση κύησης - Προγεννητικός Έλεγχος </button>
+                <button id="ser8" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser8")'> Τοκετός </button>
+                <button id="ser9" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser9")'> Κλιμακτήριος και Εμμηνόπαυση </button>
+                <button id="ser10" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser10")'> Αντισύλληψη </button>
+                <button id="ser11" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser11")'> Εφηβεία και Γυναικολογία </button>
+                <button id="ser12" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser12")'> Σεξουαλικώς Μεταδιδόμενα Νοσήματα </button>
+                <button id="ser13" class="hover:bg-offblack-soft text-left px-2 py-2 cursor-pointer" onclick='clickServices("ser13")' > Γυναικολογική Ογκολογία </button>
+
+            </div>
+            <div class="w-full md:w-[70rem] min-h-[10rem] flex items-center justify-center p-4">
+                <p id="servicetext"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-offblack text-white text-center py-4 mt-12 space-x-20 flex flex-col md:flex-row place-content-center">
+
+        <section class="grid text-white mt-12 mb-8 md:mb-0 w-full md:w-auto">
+            <div class="bg-offblack-soft h-auto gap-4 pb-4 md:pb-0 md:h-40 flex flex-col md:flex-row items-center rounded-lg">
+                <img src="/images/Calendar.png" alt="Φωτογραφία Ημερολογίου" class="hidden md:block rounded-lg h-40">
+                <p class="px-16 pt-4">
+                    Σας ανησυχούν τα συμπτώματα;
+                    <br>
+                    Αφήστε μας να βοηθήσουμε...
+                </p>
+                <button class="bg-white text-offblack md:mr-8 h-16 w-40 rounded-full cursor-pointer">
+                    Κλείστε Ραντεβού
+                </button>
+            </div>
+        </section>
+
+        <dl class="max-w-md text-gray-900 divide-y divide-offblack-softest dark:text-white ml-16 md:ml-0">
+            <div class="flex flex-col pb-3">
+                <dd class="text-lg font-semibold">ΙΑΤΡΕΙΟ ΘΕΣΣΑΛΟΝΙΚΗΣ</dd>
+                <dt class="mb-1 text-offblack-softest md:text-base">Τσιμισκή 42, Θεσσαλονίκη</dt>
+                <dt class="mb-1 text-offblack-softest md:text-sm italic">Τηλ. 2310 243303</dt>
+            </div>
+            <div class="py-3">
+                <div class="mb-1 text-offblack-softest md:text-base">
+                    <p>
+                        Τρίτη             17:00 - 22:00
+                    </p>
+                </div> 
+            </div>
+            <div class="py-3">
+                <div class="mb-1 text-offblack-softest md:text-base">
+                    <p>
+                        Πέμπτη         17:00 - 22:00
+                    </p>
+                </div> 
+            </div>
+            <div class="py-3">
+                <div class="mb-1 text-offblack-softest md:text-base">
+                    <p>
+                        Παρασκευή   17:00 - 22:00
+                    </p>
+                </div> 
+            </div>
+        </dl>
+        <dl class="max-w-md text-gray-900 divide-y divide-offblack-softest dark:text-white">
+            <div class="pb-3">
+                <dd class="text-lg font-semibold">ΙΑΤΡΕΙΟ ΚΑΤΕΡΙΝΗΣ</dd>
+                <dt class="mb-1 text-offblack-softest md:text-base">Ερμού 5, Κατερίνη</dt>
+                <dt class="mb-1 text-offblack-softest md:text-sm italic">Τηλ. 23510 31408</dt>
+            </div>
+            <div class="py-3">
+                <div class="mb-1 text-offblack-softest md:text-base">
+                    <p>
+                        Δευτέρα        09:00 - 14:00
+                    </p>
+                </div> 
+            </div>
+            <div class="py-3">
+                <div class="mb-1 text-offblack-softest md:text-base">
+                    <p>
+                        Τετάρτη         17:00 - 22:00
+                    </p>
+                </div> 
+            </div>
+        </dl>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-offblack text-white text-center py-4 mt-12">
+        <p>&copy; 2025 Γεώργιος Χ. Καραβάς . Όλα τα δικαιώματα διατηρούνται.</p>
+    </footer>
+</body>
+
+    
+<script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+        document.getElementById('menu').classList.toggle('hidden');
+    });
+</script>
+
+
+</html>
