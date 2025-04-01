@@ -48,7 +48,7 @@
     </nav>
 
     <div class="flex place-content-center mt-12">
-        <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+        <div class="bg-white p-6 rounded-lg shadow-lg w-full lg:w-[50rem] max-w-md md:max-w-2xl">
             <h2 class="text-2xl font-bold mb-4 text-gray-800">Επικοινωνήστε μαζί μας</h2>
             <form id="contact-form">
                 <label class="block mb-2 text-gray-700">Ονοματεπώνυμο</label>
@@ -98,5 +98,12 @@
         <p>&copy; 2025 Γεώργιος Χ. Καραβάς . Όλα τα δικαιώματα διατηρούνται.</p>
     </footer>
 </body>
+
+<script>
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+        document.getElementById('menu').classList.toggle('hidden');
+    });
+</script>
+
 
 </html>
