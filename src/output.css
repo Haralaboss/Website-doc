@@ -1485,6 +1485,9 @@
   .bg-\[url\(\/images\/fullslide67\.jpg\)\] {
     background-image: url(/images/fullslide67.jpg);
   }
+  .bg-\[url\(\/images\/image11\.jpg\)\] {
+    background-image: url(/images/image11.jpg);
+  }
   .bg-none {
     background-image: none;
   }
