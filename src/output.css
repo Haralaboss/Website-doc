@@ -2447,6 +2447,11 @@
       --tw-ring-color: var(--color-blue-500);
     }
   }
+  .focus\:ring-offblack {
+    &:focus {
+      --tw-ring-color: var(--color-offblack);
+    }
+  }
   .focus\:outline-none {
     &:focus {
       --tw-outline-style: none;
