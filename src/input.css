@@ -3,10 +3,12 @@
 @tailwind utilities;
 
 @theme {
-    --color-offblack: #191919;
-    --color-offblack-soft: #313131;
-    --color-offblack-softer: #686868;
-    --color-offblack-softest: #e8e8e8;
+    --color-offblack: #fff;
+    --color-offblack-soft: #f0eff4;
+    --color-offblack-softer: #e1e0e5;
+    --color-offblack-softest: #000000;
+    --color-colblue: #7f7f7f;
+    --color-magentalogo: #a54c9d;
 }
 
 @layer base {

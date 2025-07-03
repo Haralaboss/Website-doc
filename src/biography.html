@@ -7,12 +7,12 @@
     <link href="./output.css" rel="stylesheet">
     <script src="../js/buttonListeners.js"></script>
 </head>
-<body class="bg-gray-100 text-offblack">
+<body class="bg-gray-100 text-colblue">
     <!-- Header -->
-    <header class="bg-offblack text-white py-4">
+    <header class="bg-offblack py-4">
         <div class="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-16">
             <div class="flex items-center space-x-4 mb-4 md:mb-0">
-                <img src="/images/logo4.png" alt="Λογότυπο" class="h-16 md:h-20"> <!-- Logo -->
+                <img src="/images/logo5.png" alt="Λογότυπο" class="h-16 md:h-20"> <!-- Logo -->
             </div>
             
             <div class="flex flex-col items-center md:flex-row md:place-content-center gap-2">
@@ -30,109 +30,136 @@
     </header>
     
     <!-- Navigation -->
-    <nav class="bg-offblack-soft text-white py-3 shadow-md sticky top-0 z-50">
+    <nav class="bg-offblack-soft text-black py-3 shadow-md sticky top-0 z-50 ">
         <div class="container flex items-center px-4 md:px-16 gap-4">
             <button id="menu-toggle" class="block md:hidden text-white focus:outline-none">
                 <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
             </button>
-            <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
-                <a href="/index.html" class="hover:text-gray-400">Αρχική</a>
-                <a href="biography.html" class="hover:text-gray-400">Βιογραφικό</a>
-                <a href="/index.html#services" class="hover:text-gray-400">Υπηρεσίες</a>
-                <a href="articles.html" class="hover:text-gray-400">Αρθρογραφία</a>
-                <a href="contact.html" class="hover:text-gray-400">Επικοινωνία</a>
+            <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 px-2">
+                <a href="/index.html" class="hover:text-magentalogo">Αρχική</a>
+                <a href="biography.html" class="hover:text-magentalogo">Βιογραφικό</a>
+                <a href="/index.html#services" class="hover:text-magentalogo">Υπηρεσίες</a>
+                <a href="articles.html" class="hover:text-magentalogo">Αρθρογραφία</a>
+                <a href="contact.html" class="hover:text-magentalogo">Επικοινωνία</a>
             </div>
         </div>
     </nav>
-    <div class="bg-offblack space-y-4 p-4">
-        <h3 class="font-bold text-2xl text-offblack-softest underline">
+    <div class="bg-offblack space-y-4 p-4 pl-18 pr-18 pt-10">
+        <h3 class="font-bold text-2xl text-black underline">
             Βιογραφικό σημείωμα ιατρού
         </h3>
-        <p class="text-lg text-offblack-softest">
+        <div class="pr-20">
+            <p class=" text-black p-2">
         
-        Ο ιατρός Γεώργιος Χ. Καραβάς αποφοίτησε από την Ιατρική σχολή του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης το 1997.
+        Ο ιατρός Γεώργιος Χ. Καραβάς αποφοίτησε από την Ιατρική σχολή του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης το 1997 και έλαβε τον τίτλο της ειδικότητας στη Μαιευτική Γυναικολογία το 2009, μετά την ολοκλήρωση της εκπαίδευσής του:
+
         </p>
 
-        <p class="text-lg text-offblack-softest">
-        Έλαβε τον τίτλο ειδικότητας στη Μαιευτική Γυναικολογία το 2009 μετα  την ολοκληρωση της εκπαιδευσής του:
-        </p>
 
-        <ul class="text-lg text-offblack-softest px-8">
+        <ul class=" text-black px-8 p-2">
             <li>
-                Α' Χειρουργική κλινική του Γενικού Νοσοκομείου Δράμας.
+                • Α' Μαιευτική – Γυναικολογική κλινική Γενικού Νοσοκομείου Σερρών.
             </li>
             <li>
-                Α' Μαιευτική - Γυναικολογική κλινικη Γενικού Νοσοκομείου Σερρών.
+                • Μαιευτική Γυναικολογική κλινική του Ηνωμένου Βασιλείου (Gynaecology department of Birmingham Women's Hospital).
             </li>
             <li>
-                Μαιευτική Γυναικολογική κλινική του Ηνωμένου βασιλείου (Gynaecology department of  Birmingham Women's Hospital).
-            </li>
-            <li>
-                Γ΄ Πανεπιστημιακή Μαιευτική Γυναικολογική Κλινική του ΑΠΘ.
+                • Γ΄ Πανεπιστημιακή Μαιευτική Γυναικολογική Κλινική του ΑΠΘ.
             </li>
         </ul>
 
-        <p class="text-lg text-offblack-softest">
-            Από το 2010 συμμετείχε στο κλινικό και ακαδημαικό έργο της Γ΄ Πανεπιστημιακής Μ/Γ κλινικής ΑΠΘ με την ιδιότητα του επιστημονικού συνεργάτη με κύριο αντικείμενο την Μαιευτική, κύηση υψηλού κινδύνου και το Ιατρειο Οικογενειακού προγραμματισμού.
+        <p class=" text-black p-2">
+            Από το 2010 είναι μέλος και συμμετείχε  στο κλινικό και ακαδημαϊκό έργο της Γ΄ Πανεπιστημιακής Μαιευτικής Γυναικολογικής κλινικής ΑΠΘ με κύριο αντικείμενο την Μαιευτική, κύηση υψηλού κινδύνου και το Ιατρείο Οικογενειακού προγραμματισμού.
         </p>
            
-        <p class="text-lg text-offblack-softest">
-            Από το 2015 συνεχίζει το ακαδημαικό του έργο με κύρια ενασχόληση τη Γυναικολογική ογκολογία, ενδοσκοπική χειρουργική, κολποσκόπηση και παθολογία τραχήλου.
+        <p class=" text-black p-2">
+            Από το 2015 συνεχίζει το ακαδημαϊκό του έργο με κύρια ενασχόληση τη γυναικολογική ογκολογία, ενδοσκοπική χειρουργική, κολποσκόπηση και παθολογία τραχήλου.
         </p>
            
-        <p class="text-lg text-offblack-softest">
-            Είναι υποψήφιος διδάκτορας ΑΠΘ.
+        <p class=" text-black p-2">
+            Είναι υποψήφιος διδάκτορας ΑΠΘ και κάτοχος 2 μεταπτυχιακών τίτλων (Εμβρυομητρική Ιατρική και Προκαρκινικές παθήσεις στη Γυναικολογία – ΑΠΘ).
         </p>
         
-        <p class="text-lg text-offblack-softest">
-            Εχει λάβει μέρος στη συγγραφή  συγγραμάτων της Ιατρικής σχολής ΑΠΘ καθώς και αρκετών άρθρων δημοσιευμένων τόσο σε ελλήνικά όσο και σε διεθνή επιστημονικά περιοδικά.
+        <p class=" text-black p-2">
+            Έχει λάβει μέρος στη συγγραφή συγγραμάτων της Ιατρικής σχολής ΑΠΘ καθώς και αρκετών άρθρων δημοσιευμένων τόσο σε ελληνικά όσο και σε διεθνή επιστημονικά περιοδικά.
+
         </p>
+
+        <p class=" text-black p-2">
+            Εκπαίδευση:
+        </p>
+
+        <ul class=" text-black px-8 p-2">
+            <li>
+                • Fellow Γυναικολογικής Ογκολογίας ΑΠΘ, στη Γ΄ Μαιευτική Γυναικολογική Κλινική ΑΠΘ.
+            </li>
+            <li>
+                • ΙΟΤΑ certificate στην εκτίμηση όγκων ωοθηκών (International ovary tumor Analysis).
+            </li>
+            <li>
+                • Diploma of competence on Pessary treatment – Clara Angela foundation (Μέθοδος αντιμετώπισης ανεπάρκειας τραχήλου και πρόωρου τοκετού – Burgerhospital Frankfurt).
+            </li>
+            <li>
+                • Certificate of Si surgeon – Da vinci system 2020 (Ρομποτική χειρουργική).
+            </li>
+            <li>
+                • Diploma Ελληνικής Μαστολογικής εταιρείας (Senology Hellenic  society).
+            </li>
+            <li>
+                • Diploma Ελληνικής εταιρείας κολποσκόπησης και παθολογίας τραχήλου.
+            </li>
+            <li>
+                • Κρατική πιστοποίηση διενέργειας υπερηχογραφημάτων.
+            </li>
+            <li>
+                • Certificate διενέργειας Υστεροσκόπησης και Λαπαροσκόπησης (Εκπαιδευτικός κύκλος μαθημάτων – Β΄ Μαιευτική Γυναικολογική κλινική ΑΠΘ).
+            </li>
+            
+        </ul>
         
-        <p class="text-lg text-offblack-softest">
+        <p class=" text-black p-2">
             Είναι μέλος:
         </p>
 
-        <ul class="text-lg text-offblack-softest px-8">
+        <ul class=" text-black px-8 p-2">
             <li>
-                Ιατρικού συλλόγου Ηνωμενου Βασιλείου (Full registration number 6071747)
+                • ΙΟΤΑ (International tumor analysis)
             </li>
             <li>
-                Ελληνικής Μαιευτικής – Γυναικολογικής Εταιρίας
+                • ISUOG (International Society of Ultrasound in Ob/ Gyn.)
             </li>
             <li>
-                Ελληνικής Μαιευτικής – Γυναικολογικής Εταιρίας Βορείου Ελλάδος
+                • ESGO (European society of Gynaecological Oncology)
             </li>
             <li>
-                Ελληνικής Εταιρίας Περιγεννητικής Ιατρικής
+                • Ελληνικής Μαιευτικής – Γυναικολογικής Εταιρείας
             </li>
             <li>
-                Ελληνικής Εταιρείας Κολποσκόπησης και Παθολογίας Τραχήλου
+                • Ελληνικής Μαιευτικής – Γυναικολογικής Εταιρείας Βορείου Ελλάδος
             </li>
             <li>
-                Ελληνικής Εταιρείας Υπερήχων στην Μαιευτική – Γυναικολογία
+                • Ελληνικής Εταιρείας Περιγεννητικής Ιατρικής
             </li>
             <li>
-                Ελληνικής σχολής Μαστολογίας & απεικόνισης Μαστού
+                • Ελληνικής Εταιρείας Κολποσκόπησης και Παθολογίας Τραχήλου
+            </li>
+            <li>
+                • Ελληνικής Εταιρείας Υπερήχων στην Μαιευτική – Γυναικολογία
+            </li>
+            <li>
+                • Ελληνικής σχολής Μαστολογίας & Aπεικόνισης Μαστού
             </li>
             
         </ul>
         
-        <p class="text-lg text-offblack-softest">
-            Από το 2010 διατηρεί Ιδιωτικό Μαιευτικό Γυναικολογικό Ιατρείο στη Θεσσαλονίκη και προσφάτως (2018) και στην Κατερίνη.
+        <p class=" text-black p-2">
+            Από το 2010 διατηρεί Ιδιωτικό Μαιευτικό Γυναικολογικό Ιατρείο με προσανατολισμό στη Γυναικολογική Ογκολογία, στη Θεσσαλονίκη και στη Κατερίνη.
         </p>
-            
-            
-            
-            
-            
-            
+        </div>
         
-        
-        <p class="text-lg text-offblack-softest">
-            Είναι παντρεμένος με την Αναισθησιολόγο Μαρία Γ. Τζήμα με την οποία έχουν 2 παιδιά.
-        </p>
+            
     </div>
     
 
