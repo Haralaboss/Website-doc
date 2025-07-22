@@ -56,7 +56,7 @@
     </nav>
     
     <!-- Hero Section -->
-    <section class="relative bg-offblack-softer text-white flex flex-col md:flex-row items-center shadow-gray-600 shadow-lg" >
+    <section class="relative bg-offblack-softer text-black flex flex-col md:flex-row items-center shadow-gray-600 shadow-lg" >
         <img src="/images/fullslide56.png" alt="Φωτογραφία Ιατρείου" class="w-full md:w-1/2 h-auto mb-4 md:mb-0">
         <div class="md:w-1/2 text-center md:text-left">
             <h2 class="text-3xl font-bold px-4 text-center">Καλώς ήρθατε στην ιστοσελίδα του ιατρείου μας!</h2>
@@ -68,8 +68,12 @@
     
     <!-- Home Content -->
     <section class="grid mx-auto py-12 px-6 pt-20 content-center justify-center pointer-events-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-25 content-center justify-center pointer-events-auto">
-            <button onclick="window.location.href='src/thess-office.html'" class="bg-[url(/images/image12.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-64 md:w-[25rem] h-64 md:h-[15rem] 2xl:w-[35rem] 2xl:h-[20rem]
+        <div class="bg-offblack-soft shadow-gray-600 shadow-lg rounded-lg">
+            <p class="text-4xl font-bold py-4 text-black text-center">ΙΑΤΡΕΙΑ</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-25 content-center justify-center pointer-events-auto pt-10">
+            <button onclick="window.location.href='src/thess-office.html'" class="bg-[url(/images/image6.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-64 md:w-[25rem] h-64 md:h-[15rem] 2xl:w-[35rem] 2xl:h-[20rem]
                 hover:opacity-100 bg-center hover:text-white hover:scale-110 hover:transition-all cursor-pointer [text-shadow:_0px_0px_8px_rgb(255_255_255_/_90%)] hover:[text-shadow:_0px_0px_5px_rgb(0_0_0_/_80%)]">Ιατρείο Θεσσαλονίκης
             </button>
             <button onclick="window.location.href='src/katerini-office.html'" class="bg-[url(/images/Image00006.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-full w-64 md:w-[25rem] h-64 md:h-[15rem] 2xl:w-[35rem] 2xl:h-[20rem]
@@ -127,6 +131,36 @@
                 <p>Αντισύλληψη</p>
             </div>
 
+        </div>
+    </section>
+
+    <section class="mt-12 flex items-center justify-center fade-image object-cover opacity-0 transition-opacity duration-700">
+        <div class= "flex flex-col items-center">
+            <div class="bg-offblack-soft shadow-gray-600 shadow-lg rounded-lg text-center w-2xl justify-center">
+                <p class="text-4xl font-bold py-4 text-black">Η ΟΜΑΔΑ ΜΑΣ</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-4 mt-12 text-black">
+                <div class="grid place-items-center w-80">
+                    <img src="/images/ksiromeritis.png" alt="Ksiromeritis Panagiotis" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
+                    <p>Παναγιώτης Ν. Ξηρομερίτης</p>
+                    <p class="text-center text-sm italic ">Μαιευτήρας – </p>
+                    <p class="text-center text-sm italic ">Χειρουργός Γυναικολόγος</p>
+                </div>
+                <div class="grid place-items-center w-80">
+                    <img src="/images/tzima.png" alt="Tzima Maria" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
+                    <p>Μαρία Γ. Τζήμα </p>
+                    <p class="text-center text-sm italic">Ιατρός αναισθησιολόγος</p>
+                    <p class="text-center text-sm italic">MD MsC</p>
+                </div>
+                <div class="grid place-items-center w-85">
+                    <img src="/images/kalogiannidis.png" alt="Kalogiannidis Ioannis" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
+                    <p>Παναγιώτης Ν. Ξηρομερίτης</p>
+                    <p class="text-center text-sm italic">Αναπληρωτής Καθηγητής Μαιευτικής Γυναικολογίας – Γυναικολογικής Ογκολογίας</p>
+                </div>
+
+                
+                
+            </div>  
         </div>
     </section>
 
@@ -197,33 +231,7 @@
         </dl>
     </section>
 
-    <section class="mt-12 flex items-center justify-center fade-image object-cover opacity-0 transition-opacity duration-700">
-        <div class= "flex flex-col items-center">
-            <div class="bg-offblack-soft shadow-gray-600 shadow-lg rounded-lg text-center w-2xl justify-center">
-                <p class="text-4xl font-bold py-4 text-black">Η ΟΜΑΔΑ ΜΑΣ</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-4 mt-12 text-black">
-                <div class="grid place-items-center w-80">
-                    <img src="/images/ksiromeritis.png" alt="Ksiromeritis Panagiotis" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
-                    <p>Παναγιώτης Ν. Ξηρομερίτης</p>
-                    <p class="text-center text-sm italic ">Μαιευτήρας – Χειρουργός Γυναικολόγος</p>
-                </div>
-                <div class="grid place-items-center w-80">
-                    <img src="/images/tzima.png" alt="Tzima Maria" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
-                    <p>Μαρία Γ. Τζήμα </p>
-                    <p class="text-center text-sm italic">Ιατρός αναισθησιολόγος MD MsC</p>
-                </div>
-                <div class="grid place-items-center w-80">
-                    <img src="/images/kalogiannidis.png" alt="Kalogiannidis Ioannis" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
-                    <p>Παναγιώτης Ν. Ξηρομερίτης</p>
-                    <p class="text-center text-sm italic">Αναπληρωτής Καθηγητής Μαιευτικής Γυναικολογίας – Γυναικολογικής Ογκολογίας</p>
-                </div>
-
-                
-                
-            </div>  
-        </div>
-    </section>
+    
     
     <!-- Footer -->
     <footer class="bg-offblack text-black text-center py-4 mt-12">

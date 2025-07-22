@@ -264,6 +264,9 @@
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
+  .top-1 {
+    top: calc(var(--spacing) * 1);
+  }
   .top-1\/2 {
     top: calc(1/2 * 100%);
   }
@@ -392,6 +395,18 @@
   }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-2 {
+    margin-block: calc(var(--spacing) * 2);
+  }
+  .my-4 {
+    margin-block: calc(var(--spacing) * 4);
+  }
+  .my-6 {
+    margin-block: calc(var(--spacing) * 6);
+  }
+  .my-8 {
+    margin-block: calc(var(--spacing) * 8);
   }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
@@ -549,6 +564,9 @@
   .min-h-screen {
     min-height: 100vh;
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-1\/2 {
     width: calc(1/2 * 100%);
   }
@@ -569,6 +587,15 @@
   }
   .w-80 {
     width: calc(var(--spacing) * 80);
+  }
+  .w-85 {
+    width: calc(var(--spacing) * 85);
+  }
+  .w-150 {
+    width: calc(var(--spacing) * 150);
+  }
+  .w-160 {
+    width: calc(var(--spacing) * 160);
   }
   .w-200 {
     width: calc(var(--spacing) * 200);
@@ -680,6 +707,10 @@
   .translate-full {
     --tw-translate-x: 100%;
     --tw-translate-y: 100%;
+    translate: var(--tw-translate-x) var(--tw-translate-y);
+  }
+  .-translate-y-1 {
+    --tw-translate-y: calc(var(--spacing) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
   .-translate-y-1\/2 {
@@ -1308,6 +1339,9 @@
   }
   .bg-\[url\(\/images\/Image00006\.jpg\)\] {
     background-image: url(/images/Image00006.jpg);
+  }
+  .bg-\[url\(\/images\/image6\.jpg\)\] {
+    background-image: url(/images/image6.jpg);
   }
   .bg-\[url\(\/images\/image12\.jpg\)\] {
     background-image: url(/images/image12.jpg);
@@ -2322,6 +2356,11 @@
       width: calc(1/2 * 100%);
     }
   }
+  .md\:w-200 {
+    @media (width >= 48rem) {
+      width: calc(var(--spacing) * 200);
+    }
+  }
   .md\:w-\[25rem\] {
     @media (width >= 48rem) {
       width: 25rem;
@@ -2407,14 +2446,29 @@
       line-height: var(--tw-leading, var(--text-sm--line-height));
     }
   }
+  .lg\:w-200 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 200);
+    }
+  }
   .lg\:w-\[50rem\] {
     @media (width >= 64rem) {
       width: 50rem;
     }
   }
+  .xl\:w-200 {
+    @media (width >= 80rem) {
+      width: calc(var(--spacing) * 200);
+    }
+  }
   .\32 xl\:h-\[20rem\] {
     @media (width >= 96rem) {
       height: 20rem;
+    }
+  }
+  .\32 xl\:w-200 {
+    @media (width >= 96rem) {
+      width: calc(var(--spacing) * 200);
     }
   }
   .\32 xl\:w-\[35rem\] {
