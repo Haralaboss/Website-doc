@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ιατρείο</title>
-    <link href="src/output.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
     <script src="../js/buttonListeners.js"></script>
 </head>
 <body class="bg-[url(/images/untitled23.png)] bg-fixed text-white">
@@ -12,18 +12,18 @@
     <header class=" text-colblue py-4">
         <div class="flex flex-col md:flex-row items-center md:justify-between px-4 md:px-16">
             <div class="flex items-center space-x-4 mb-4 md:mb-0">
-                <img src="/images/logo5.png" alt="Λογότυπο" class="h-14 md:h-20"> <!-- Logo -->
+                <img src="/images/logo5.png" alt="Λογότυπο" class="h-16 md:h-20"> <!-- Logo -->
             </div>
             
-            <div class="flex items-center md:flex-row md:place-content-center gap-2 flex-row-reverse">
-                <div class="flex mb-2 md:mb-0">
+            <div class="flex flex-col items-center md:flex-row md:place-content-center gap-2">
+                <div class="flex space-x-2 mb-2 md:mb-0">
                     <div class="group">
-                        <div class="group-hover:hidden"><a href="https://www.facebook.com/share/1YpMM78E6W/" target="_blank"> <img src="/images/facebook icon.png" class="h-12 cursor-pointer"></a></div>
-                        <div class="hidden group-hover:flex"><a href="https://www.facebook.com/share/1YpMM78E6W/" target="_blank"> <img src="/images/facebook icon highlight.png" class="h-12 cursor-pointer"></a></div>
+                        <div class="group-hover:hidden"><a href="https://www.facebook.com/share/1YpMM78E6W/" target="_blank"> <img src="/images/facebook icon.png" class="h-10 cursor-pointer"></a></div>
+                        <div class="hidden group-hover:flex"><a href="https://www.facebook.com/share/1YpMM78E6W/" target="_blank"> <img src="/images/facebook icon highlight.png" class="h-10 cursor-pointer"></a></div>
                     </div> 
                     <div class="group">
-                        <div class="group-hover:hidden"><a href="https://www.instagram.com/karavasgc/" target="_blank"> <img src="/images/instagram icon.png" class="h-12 cursor-pointer"></a></div>
-                        <div class="hidden group-hover:flex"><a href="https://www.instagram.com/karavasgc/" target="_blank"> <img src="/images/instagram icon highlight.png" class="h-12 cursor-pointer"></a></div>
+                        <div class="group-hover:hidden"><a href="https://www.instagram.com/karavasgc/" target="_blank"> <img src="/images/instagram icon.png" class="h-10 cursor-pointer"></a></div>
+                        <div class="hidden group-hover:flex"><a href="https://www.instagram.com/karavasgc/" target="_blank"> <img src="/images/instagram icon highlight.png" class="h-10 cursor-pointer"></a></div>
                     </div> 
                 </div>
                 <div class="text-sm text-center md:text-left">
@@ -46,40 +46,17 @@
                 </svg>
             </button>
             <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 px-2">
-                <a href="index.html" class="hover:text-magentalogo">Αρχική</a>
-                <a href="src/biography.html" class="hover:text-magentalogo">Βιογραφικό</a>
-                <a href="src/services.html" class="hover:text-magentalogo">Υπηρεσίες</a>
-                <a href="src/articles.html" class="hover:text-magentalogo">Αρθρογραφία</a>
-                <a href="src/contact.html" class="hover:text-magentalogo">Επικοινωνία</a>
+                <a href="/index.html" class="hover:text-magentalogo">Αρχική</a>
+                <a href="biography.html" class="hover:text-magentalogo">Βιογραφικό</a>
+                <a href="services.html" class="hover:text-magentalogo">Υπηρεσίες</a>
+                <a href="articles.html" class="hover:text-magentalogo">Αρθρογραφία</a>
+                <a href="contact.html" class="hover:text-magentalogo">Επικοινωνία</a>
             </div>
         </div>
     </nav>
-    
-    <!-- Hero Section -->
-    <section class="relative bg-offblack-softer text-white flex flex-col md:flex-row items-center shadow-gray-600 shadow-lg" >
-        <img src="/images/fullslide56.png" alt="Φωτογραφία Ιατρείου" class="w-full md:w-1/2 h-auto mb-4 md:mb-0">
-        <div class="md:w-1/2 text-center md:text-left">
-            <h2 class="text-3xl font-bold px-4 text-center">Καλώς ήρθατε στην ιστοσελίδα του ιατρείου μας!</h2>
-            <p class="px-16 pt-4 text-center">
-                Σας ευχαριστούμε για την επίσκεψή σας και ελπίζουμε ότι η περιήγησή σας θα είναι χρήσιμη και αποδοτική, εκπληρώνοντας τον στόχο μας να σας παρέχουμε την καλύτερη δυνατή ενημέρωση.
-            </p>
-        </div>
-    </section>
-    
-    <!-- Home Content -->
-    <section class="grid mx-auto py-12 px-6 pt-20 content-center justify-center pointer-events-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-25 content-center justify-center pointer-events-auto">
-            <button onclick="window.location.href='src/thess-office.html'" class="bg-[url(/images/image12.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-64 md:w-[25rem] h-64 md:h-[15rem] 2xl:w-[35rem] 2xl:h-[20rem]
-                hover:opacity-100 bg-center hover:text-white hover:scale-110 hover:transition-all cursor-pointer [text-shadow:_0px_0px_8px_rgb(255_255_255_/_90%)] hover:[text-shadow:_0px_0px_5px_rgb(0_0_0_/_80%)]">Ιατρείο Θεσσαλονίκης
-            </button>
-            <button onclick="window.location.href='src/katerini-office.html'" class="bg-[url(/images/Image00006.jpg)] bg-cover opacity-75 rounded-lg text-2xl font-bold p-3 shadow-lg shadow-offblack w-full w-64 md:w-[25rem] h-64 md:h-[15rem] 2xl:w-[35rem] 2xl:h-[20rem]
-                hover:opacity-100 bg-center hover:text-white hover:scale-110 hover:transition-all cursor-pointer [text-shadow:_0px_0px_8px_rgb(255_255_255_/_90%)] hover:[text-shadow:_0px_0px_5px_rgb(0_0_0_/_80%)]">Ιατρείο Κατερίνης
-            </button>
-        </div>
-    </section>
         
     </section>
-    <section id="services" class=" text-colblue text-center py-4 mt-12 grid place-content-center content-center p-10 fade-image object-cover opacity-0 transition-opacity duration-700">
+    <section id="services" class=" text-colblue text-center py-4 mt-12 grid place-content-center content-center p-10">
         <div class="bg-offblack-soft shadow-gray-600 shadow-lg rounded-lg">
             <p class="text-4xl font-bold py-4 text-black">ΥΠΗΡΕΣΙΕΣ</p>
         </div>
@@ -100,7 +77,7 @@
             </div>
             <div class="grid place-items-center w-50">
                 <img src="/images/service-EX.png" class="h-20 w-max cursor-pointer">
-                <p>Ενδοσκοπική Χειρουργική </p>
+                <p>Ενδοσκοπική Χειρουργική (Υστεροσκόπηση & Λαπαροσκόπηση & Ρομποτική Χειρουργική - Davinci) </p>
             </div>
             <div class="grid place-items-center w-50">
                 <img src="/images/service-GO.png" class="h-20 w-max cursor-pointer">
@@ -196,64 +173,13 @@
             </div>
         </dl>
     </section>
-
-    <section class="mt-12 flex items-center justify-center fade-image object-cover opacity-0 transition-opacity duration-700">
-        <div class= "flex flex-col items-center">
-            <div class="bg-offblack-soft shadow-gray-600 shadow-lg rounded-lg text-center w-2xl justify-center">
-                <p class="text-4xl font-bold py-4 text-black">Η ΟΜΑΔΑ ΜΑΣ</p>
-            </div>
-            <div class="grid md:grid-cols-3 gap-4 mt-12 text-black">
-                <div class="grid place-items-center w-80">
-                    <img src="/images/ksiromeritis.png" alt="Ksiromeritis Panagiotis" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
-                    <p>Παναγιώτης Ν. Ξηρομερίτης</p>
-                    <p class="text-center text-sm italic ">Μαιευτήρας – Χειρουργός Γυναικολόγος</p>
-                </div>
-                <div class="grid place-items-center w-80">
-                    <img src="/images/tzima.png" alt="Tzima Maria" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
-                    <p>Μαρία Γ. Τζήμα </p>
-                    <p class="text-center text-sm italic">Ιατρός αναισθησιολόγος MD MsC</p>
-                </div>
-                <div class="grid place-items-center w-80">
-                    <img src="/images/kalogiannidis.png" alt="Kalogiannidis Ioannis" class="fade-image h-80 object-cover opacity-0 transition-opacity duration-700 rounded-lg shadow-gray-600 shadow-lg mb-1" />
-                    <p>Παναγιώτης Ν. Ξηρομερίτης</p>
-                    <p class="text-center text-sm italic">Αναπληρωτής Καθηγητής Μαιευτικής Γυναικολογίας – Γυναικολογικής Ογκολογίας</p>
-                </div>
-
-                
-                
-            </div>  
-        </div>
-    </section>
     
     <!-- Footer -->
     <footer class="bg-offblack text-black text-center py-4 mt-12">
         <p>&copy; 2025 Γεώργιος Χ. Καραβάς . Όλα τα δικαιώματα διατηρούνται.</p>
     </footer>
-
 </body>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-  const observer = new IntersectionObserver(
-    entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("opacity-100");
-          entry.target.classList.remove("opacity-0");
-        } else {
-          entry.target.classList.remove("opacity-100");
-          entry.target.classList.add("opacity-0");
-        }
-      });
-    },
-    {
-      threshold: 0.5 // 50% of image must be in view to trigger
-    }
-  );
-
-  document.querySelectorAll(".fade-image").forEach(img => observer.observe(img));
-});
-</script>
     
 <script>
     document.getElementById('menu-toggle').addEventListener('click', function () {
