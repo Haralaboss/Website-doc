@@ -576,6 +576,9 @@
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
+  }
   .w-40 {
     width: calc(var(--spacing) * 40);
   }
@@ -1345,6 +1348,39 @@
   }
   .bg-\[url\(\/images\/image12\.jpg\)\] {
     background-image: url(/images/image12.jpg);
+  }
+  .bg-\[url\(\/images\/service-AS\.png\)\] {
+    background-image: url(/images/service-AS.png);
+  }
+  .bg-\[url\(\/images\/service-DY\.png\)\] {
+    background-image: url(/images/service-DY.png);
+  }
+  .bg-\[url\(\/images\/service-EX\.png\)\] {
+    background-image: url(/images/service-EX.png);
+  }
+  .bg-\[url\(\/images\/service-FT\.jpg\)\] {
+    background-image: url(/images/service-FT.jpg);
+  }
+  .bg-\[url\(\/images\/service-FT\.png\)\] {
+    background-image: url(/images/service-FT.png);
+  }
+  .bg-\[url\(\/images\/service-GO\.png\)\] {
+    background-image: url(/images/service-GO.png);
+  }
+  .bg-\[url\(\/images\/service-Kyisi\.png\)\] {
+    background-image: url(/images/service-Kyisi.png);
+  }
+  .bg-\[url\(\/images\/service-MP\.png\)\] {
+    background-image: url(/images/service-MP.png);
+  }
+  .bg-\[url\(\/images\/service-PEG2\.png\)\] {
+    background-image: url(/images/service-PEG2.png);
+  }
+  .bg-\[url\(\/images\/service-PKPE\.png\)\] {
+    background-image: url(/images/service-PKPE.png);
+  }
+  .bg-\[url\(\/images\/service-YA\.png\)\] {
+    background-image: url(/images/service-YA.png);
   }
   .bg-\[url\(\/images\/untitled23\.png\)\] {
     background-image: url(/images/untitled23.png);
