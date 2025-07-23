@@ -36,19 +36,29 @@
     </header>
     
     <!-- Navigation -->
-    <nav class="bg-offblack-soft text-black py-3 shadow-md sticky top-0 z-50 ">
-        <div class="container flex items-center px-4 md:px-16 gap-4">
-            <button id="menu-toggle" class="block md:hidden text-white focus:outline-none">
-                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                </svg>
-            </button>
-            <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 px-2">
-                <a href="/index.html" class="hover:text-magentalogo">Αρχική</a>
-                <a href="biography.html" class="hover:text-magentalogo">Βιογραφικό</a>
-                <a href="services.html" class="hover:text-magentalogo">Υπηρεσίες</a>
-                <a href="articles.html" class="hover:text-magentalogo">Αρθρογραφία</a>
-                <a href="contact.html" class="hover:text-magentalogo">Επικοινωνία</a>
+    <nav class="bg-offblack-soft text-black py-3 shadow-md sticky top-0 z-50 shadow-gray-600 shadow-lg">
+        <div class="container px-4 md:px-16">
+    
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-4">
+      
+                <!-- Toggle button -->
+                <div class="w-full flex justify-start md:hidden">
+                    <button id="menu-toggle" class="text-black focus:outline-none">
+                        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div id="menu" class="hidden flex md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6 px-2">
+                    <a href="/index.html" class="hover:text-magentalogo">Αρχική</a>
+                    <a href="biography.html" class="hover:text-magentalogo">Βιογραφικό</a>
+                    <a href="services.html" class="hover:text-magentalogo">Υπηρεσίες</a>
+                    <a href="articles.html" class="hover:text-magentalogo">Αρθρογραφία</a>
+                    <a href="contact.html" class="hover:text-magentalogo">Επικοινωνία</a>
+                </div>
+
             </div>
         </div>
     </nav>
@@ -121,12 +131,6 @@
             </script>
         
         </section>
-
-
-        
-    </body>
-    </html>
-
 
 
     <!-- Footer -->
